@@ -7,21 +7,8 @@ import os
 st.set_page_config(
     page_title="Sentiment Web Analyzer",
     page_icon="😊",
-    layout="centered"
-)
-
-# -------------------------
-# Load Background Image Safely
-# -------------------------
-current_dir = os.path.dirname(__file__)  # directory of this script
-image_path = os.path.join(current_dir, "image.jpg")  # change filename if needed
-
-if os.path.exists(image_path):
-    st.image(image_path, width=700)  # adjust width as needed
-else:
-    st.warning("Background image not found! Please add 'image.jpg' to the project folder.")
-
-# -------------------------
+    layout="centered
+    
 # App Title
 # -------------------------
 st.title("Sentiment Web Analyzer")
