@@ -51,6 +51,10 @@ tqdm==4.66.1
 typing_extensions==4.7.1
 tzdata==2023.3
 tzlocal==4.3.1
+urllib3==2.0.4
+validators==0.22.0
+watchdog==3.0.0
+zipp==3.16.2
 streamlit
 pandas
 numpy
@@ -59,7 +63,3 @@ seaborn
 scikit-learn
 nltk
 textblob
-urllib3==2.0.4
-validators==0.22.0
-watchdog==3.0.0
-zipp==3.16.2
